@@ -85,17 +85,17 @@ export default {
   flex-direction: column;
   align-items: center;
   padding: 50px;
-  background-color: #0ee43c; /* Light cyan background color */
+  background-color: #0ee43c; 
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .formula-textarea {
   margin-bottom: 20px;
-  border: 2px solid #00796b; /* Darker cyan border color */
+  border: 2px solid #00796b; 
   border-radius: 8px;
   padding: 20px;
-  background-color: white; /* White background for textarea */
+  background-color: white; 
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
 }
@@ -103,16 +103,16 @@ export default {
 .copy-model-container {
   width: 100%;
   max-width: 600px;
-  background-color: white; /* White background for copy model container */
+  background-color: white; 
   padding: 20px;
-  border: 10px solid #00796b; /* Darker cyan border color */
+  border: 10px solid #00796b; 
   border-radius: 8px;
 }
 
 .copy-model-textarea {
   width: 95%;
   border: none;
-  background-color: white; /* Light green background for copy model textarea */
+  background-color: white; 
   padding: 20px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
