@@ -26,13 +26,13 @@
 export default {
   data() {
     return {
-      formula: `AVG(balance_real)\nAVG(Æ$$.5131Æ)`,
+      formula: `AVG(balance_real)`,
       selectedText: '',
       copyModel: '',
       aliasMap: {
         'balance_real': 'Æ$$.5131Æ',
-        'Æ$$.5131Æ': 'balance_real',
-        // we can add more aliases this part
+        
+       
       },
     };
   },
@@ -85,14 +85,14 @@ export default {
   flex-direction: column;
   align-items: center;
   padding: 50px;
-  background-color: #0ee43c; 
+  background-color: #275f33; 
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .formula-textarea {
   margin-bottom: 20px;
-  border: 2px solid #00796b; 
+  border: 5px solid #98f0a0; 
   border-radius: 8px;
   padding: 20px;
   background-color: white; 
@@ -105,7 +105,7 @@ export default {
   max-width: 600px;
   background-color: white; 
   padding: 20px;
-  border: 10px solid #00796b; 
+  border: 5px solid #98f0a0; 
   border-radius: 8px;
 }
 
